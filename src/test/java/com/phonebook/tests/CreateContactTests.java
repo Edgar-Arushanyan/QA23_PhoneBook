@@ -49,6 +49,20 @@ public class CreateContactTests extends TestBase{
         app.getContact().clickOnSaveButton();
 
     }
+    /* HW.
+    В тестовом методе AddContactTests создайте, пожалуйсчта, еще один тестовый метод, который
+     будет проверять реакцию аппликации на добавление контакта с неверными телефонными номерами
+     */
+
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "addNegativePhoneContactFromCsvFile")//swaska s DataProvider
+    public void addNegativePhoneContactFromCsvFilePositiveTest(Contact contact) {
+
+        app.getHeader().clickOnAddLink();
+        app.getContact().fillAddContactForm(contact);
+
+        app.getContact().clickOnSaveButton();
+
+    }
 
     @AfterMethod
     public void tearDown() {

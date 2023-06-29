@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.HeaderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-29T08:29:51" hostname="DESKTOP-OS617JJ" time="0.69">
+  <properties/>
+  <testcase name="ABOUT" classname="com.phonebook.tests.HeaderTests" time="0.033"/>
+  <testcase name="HOME" classname="com.phonebook.tests.HeaderTests" time="0.028"/>
+  <testcase name="LOGIN" classname="com.phonebook.tests.HeaderTests" time="0.02"/>
+  <testcase name="logo" classname="com.phonebook.tests.HeaderTests" time="0.028"/>
+  <system-out><![CDATA[10:29:51.544 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testABOUTwith data: []
+10:29:51.803 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: ABOUT
+10:29:51.804 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:29:51.804 [Test worker] INFO  com.phonebook.tests.TestBase -- ========================================================
+10:29:51.807 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testHOMEwith data: []
+10:29:52.000 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: HOME
+10:29:52.001 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:29:52.002 [Test worker] INFO  com.phonebook.tests.TestBase -- ========================================================
+10:29:52.005 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testLOGINwith data: []
+10:29:52.346 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: LOGIN
+10:29:52.346 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:29:52.347 [Test worker] INFO  com.phonebook.tests.TestBase -- ========================================================
+10:29:52.350 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testlogowith data: []
+10:29:52.460 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: logo
+10:29:52.461 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+10:29:52.461 [Test worker] INFO  com.phonebook.tests.TestBase -- ========================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,20 +1,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Regression" verbose="1" >
+<suite name="Negative" verbose="1" >
 
-    <test name="Regression" >
+    <test name="Negative" >
         <classes>
             <class name="com.phonebook.tests.HomePageTests" />
             <class name="com.phonebook.tests.HeaderTests" />
-            <class name="com.phonebook.tests.LoginTests" >
-                <methods>
-                    <exclude name=".*Negative.*"></exclude>
-                </methods>
-            </class>
+            <class name="com.phonebook.tests.LoginTests" />
             <class name="com.phonebook.tests.CreateContactTests" >
-                    <methods>
-                        <exclude name=".*From.*"></exclude>
-                    </methods>
+            <methods>
+                <exclude name=".*Positive.*"></exclude>
+            </methods>
             </class>
             <class name="com.phonebook.tests.RemoveContactTest" />
         </classes>
